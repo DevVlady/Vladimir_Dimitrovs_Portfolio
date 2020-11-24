@@ -13,8 +13,25 @@
     background-size: contain;
 }
 
-#mainpage-button {
+#view-my-work-button {
     margin-top: 10px;
+    display: block;
+    width: 300px;
+    height: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    border: 3px solid rgb(0, 0, 0);
+    transition: all .30s;
+}
+
+#view-my-work-button:hover {
+    width: 400px;
+    font-size: 40px;
+    border: 3px solid #000000;
+    background: transparent;
+    /* background-color: rgb(33, 160, 215); */
 }
 
 .flex {
@@ -22,12 +39,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 210px;
 }
 
+/* Source: https://1stwebdesigner.com/15-css-background-effects/ */
 body {
     text-align: center;
-    background: linear-gradient(-45deg, #e68264, #c1688a, #23a6d5, #118c6f);
+    background: linear-gradient(-45deg, #52e645, #7ca948, #16c1ff, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
