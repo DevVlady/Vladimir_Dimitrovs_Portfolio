@@ -1,0 +1,21 @@
+#view-my-work-button {
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    border: 1px solid black;
+}
+
+#business-photo {
+    height: 350px;
+    width: 350px;
+}
+
+#view-my-work-button {
+    flex-direction: column;
+}
+
+#view-my-work-button {
+    margin-top: 10px;
+}
+
+.flex
