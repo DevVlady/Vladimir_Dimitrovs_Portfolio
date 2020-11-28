@@ -76,8 +76,16 @@ body {
     font-size: 70px;
 }
 
+#main-page {
+    display: none;
+}
+
 /*-------- About Me Page CSS---------*/
 #about-me-navbar {
     font-size: 20px;
     font-weight: bold;
+}
+
+#about-me-page {
+    display: none;
 }

@@ -16,7 +16,7 @@
 <body>
 
     <div class="overflow-wrap">
-        <main id="main-page">
+        <main id="main-page" style="display: block;">
             <div class="flex">
                 <div id="mainpage-text">
                     <h1>Welcome<br>My name is <span id="my-name">VLADIMIR DIMITROV</span> </b><br>I'm a Full-Stack Web Developer</h1>
@@ -27,16 +27,19 @@
                 </div>
             </div>
         </main>
-        <!-- <section id="about-me-page">
+        <section id="about-me-page">
             <nav class="navbar navbar-expand navbar-dark" id="about-me-navbar">
                 <div class="nav navbar-nav">
-                    <a class="nav-item nav-link" href="#main-page">HOME</a>
-                    <a class="nav-item nav-link active" href="#">ABOUT<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#main-page" id="home-button">HOME</a>
+                    <a class="nav-item nav-link active" href="#about-me-page">ABOUT<span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#">PORTOLIO</a>
                     <a class="nav-item nav-link" href="#">CONTACT</a>
                 </div>
             </nav>
-        </section> -->
+            <div class="card" id="about-me-card">
+                <h1>ABOUT</h1>
+            </div>
+        </section>
 
 
 
