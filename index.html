@@ -38,7 +38,7 @@
                     <a class="nav-item nav-link" href="#">CONTACT</a>
                 </div>
             </nav>
-                <h2>ABOUT</h2>
+            <h2>ABOUT</h2>
         </section>
         <section id="portfolio-page">
             <nav class="navbar navbar-expand navbar-dark" id="about-me-navbar">
@@ -47,7 +47,7 @@
                     <a class="nav-item nav-link" href="#about-me-page" id="about-button">ABOUT</a>
                     <a class="nav-item nav-link active" href="#portfolio-page">PORTFOLIO<span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">CONTACT</a>
+                    <a class="nav-item nav-link" href="#" id="contact-me-button">CONTACT</a>
                 </div>
             </nav>
             <div style="margin-bottom: 25px;">
@@ -63,46 +63,58 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/Assets/Portfolio/Team Profile Generator.png" class="d-block w-100" alt="Team Profile Generator">
+                        <img src="/Assets/Portfolio/Team Profile Generator.png" class="d-block w-100"
+                            alt="Team Profile Generator">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Project: Team Profile Generator</h5>
-                            <p>This projects uses JS, CSS, & Node.js to create a team profile by answering a few questions</p>
-                            <a href="https://github.com/Vlady14/Profile_Generator" target="_blank">View Project on GitHub</a>
+                            <p>This projects uses JS, CSS, & Node.js to create a team profile by answering a few
+                                questions</p>
+                            <a href="https://github.com/Vlady14/Profile_Generator" target="_blank">View Project on
+                                GitHub</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/Assets/Portfolio/Password_Generator.png" class="d-block w-100" alt="Password Generator">
+                        <img src="/Assets/Portfolio/Password_Generator.png" class="d-block w-100"
+                            alt="Password Generator">
                         <div class="carousel-caption d-none d-md-block" style="color: black;">
                             <h5>Project: Password Generator</h5>
-                            <p>Utilizing JavaScript, this platform creates a password based on the parameters selected by the user</p>
-                            <a href="https://github.com/Vlady14/PasswordGenerator" target="_blank">View Project on GitHub</a>
+                            <p>Utilizing JavaScript, this platform creates a password based on the parameters selected
+                                by the user</p>
+                            <a href="https://github.com/Vlady14/PasswordGenerator" target="_blank">View Project on
+                                GitHub</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/Assets/Portfolio/Work Day Planner.png" class="d-block w-100" style="height: 1100px;" alt="Day Planner">
+                        <img src="/Assets/Portfolio/Work Day Planner.png" class="d-block w-100" style="height: 1100px;"
+                            alt="Day Planner">
                         <div class="carousel-caption d-none d-md-block" style="color: black;">
                             <h5>Project: Work Day Planner</h5>
-                            <p>Utilizing JavaScript, this project creates a color coded schedule to help keep better track of your daily events</p>
+                            <p>Utilizing JavaScript, this project creates a color coded schedule to help keep better
+                                track of your daily events</p>
                             <a href="https://github.com/Vlady14/Day_Planner" target="_blank">View Project on GitHub</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/Assets/Portfolio/Weather Dashboard.png" class="d-block w-100" alt="Weather Dashboard">
+                        <img src="/Assets/Portfolio/Weather Dashboard.png" class="d-block w-100"
+                            alt="Weather Dashboard">
                         <div class="carousel-caption d-none d-md-block" style="color: black;">
                             <h5>Project: Weather Dashboard</h5>
-                            <p>Using JavaScript, this platform allows users to view current & 5 day forecast for the city searched</p>
-                            <a href="https://github.com/Vlady14/Weather_Dashboard" target="_blank">View Project on GitHub</a>
+                            <p>Using JavaScript, this platform allows users to view current & 5 day forecast for the
+                                city searched</p>
+                            <a href="https://github.com/Vlady14/Weather_Dashboard" target="_blank">View Project on
+                                GitHub</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="/Assets/Portfolio/ReadME Generator.png" class="d-block w-100" alt="ReadMe Generator">
                         <div class="carousel-caption d-none d-md-block" style="color: black;">
                             <h5 style="background-color: black; color: white;">Project: ReadME Generator</h5>
-                            <p>This project uses Node.js & JavaScript to greate a professional ReadMe file all from the command line</p>
-                            <a href="https://github.com/Vlady14/VDimitrov_ReadMe_Generator" target="_blank">View Project on GitHub</a>
+                            <p>This project uses Node.js & JavaScript to greate a professional ReadMe file all from the
+                                command line</p>
+                            <a href="https://github.com/Vlady14/VDimitrov_ReadMe_Generator" target="_blank">View Project
+                                on GitHub</a>
                         </div>
                     </div>
-
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -113,13 +125,41 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
         </section>
-
-
+        <section style="display: none;" id="contact-me-page">
+            <nav class="navbar navbar-expand navbar-dark" id="about-me-navbar">
+                <div class="nav navbar-nav">
+                    <a class="nav-item nav-link" href="#main-page" id="home-button">HOME</a>
+                    <a class="nav-item nav-link" href="#about-me-page">ABOUT<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#portfolio-page" id="portfolio-button">PORTFOLIO</a>
+                    <a class="nav-item nav-link active" href="#">CONTACT</a>
+                </div>
+            </nav>
+            <footer>
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2"></label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="contact-message" rows="3" placeholder="Message"></textarea>
+                          </div>
+                    </form>
+                <a href="https://github.com/Vlady14" target="_blank" class="btn btn-success btn-lg active" role="button"
+                    aria-pressed="true"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vladimirsdimitrov/" target="_blank"
+                    class="btn btn-primary btn-lg active" role="button" aria-pressed="true"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </footer>
+        </section>
     </div>
-
-
 
 
     <script src="./Assets/JavaScript/script.js"></script>
