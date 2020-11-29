@@ -1,3 +1,8 @@
+/* ----------Apply to All----------- */
+h2 {
+    text-decoration: underline;
+}
+
 /*-------- Main Page CSS---------*/
 #view-my-work-button {
     padding: 10px;
@@ -89,3 +94,10 @@ body {
 #about-me-page {
     display: none;
 }
+
+#portfolio-page {
+    display: none;
+}
+
+/* ------Portfolio Page */
+
