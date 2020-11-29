@@ -106,9 +106,30 @@ body {
 }
 
 /* ------Portfolio Page----------- */
+/* .carousel {
+    margin: 50px;
+    border: 10px solid black;
+    width: 450px;
+} */
 
+#workday-planner,
+#team-profile,
+#readme-genertor,
+#password-generator,
+#charging-forward,
+#note-pad {
+    border: 10px solid black;
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+}
 
-
+#weather-dashboard {
+    margin: 5px;
+    border: 10px solid black;
+    height: 350px;
+    width: 715px;
+}
 
 /* ------Contact Me Page------------ */
 footer {

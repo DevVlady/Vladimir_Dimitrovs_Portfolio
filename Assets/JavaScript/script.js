@@ -22,7 +22,7 @@ viewMyWorkButton.addEventListener('click', displayPortfolioPage);
 //Event Listener to display portfolio page when port button is clicked
 portfolioButton.addEventListener('click', displayPortfolioPage);
 //Event Listener to display Contact Me page
-contactMeButton.addEventListener('click', displayContactPage)
+contactMeButton.addEventListener('click', displayContactPage);
 
 
 //Function to display the Main Page
