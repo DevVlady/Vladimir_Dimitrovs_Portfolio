@@ -16,7 +16,7 @@
 <body>
 
     <div class="overflow-wrap">
-        <main id="main-page" style="display: block;">
+        <main id="home-page" style="display: block;">
             <div class="flex">
                 <div id="mainpage-text">
                     <h1>Welcome<br>My name is <span id="my-name">VLADIMIR DIMITROV</span> </b><br>I'm a Full-Stack Web
@@ -29,38 +29,48 @@
             </div>
         </main>
         <section id="about-me-page">
-            <nav class="navbar navbar-expand navbar-dark" id="about-me-navbar">
+            <nav class="navbar navbar-expand navbar-dark" id="navbar">
                 <div class="nav navbar-nav">
-                    <a class="nav-item nav-link" href="#main-page" id="home-button">HOME</a>
+                    <a class="nav-item nav-link" href="#home-page" id="amp-home-link">HOME</a>
                     <a class="nav-item nav-link active" href="#about-me-page">ABOUT<span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#portfolio-page" id="portfolio-button">PORTFOLIO</a>
-                    <a class="nav-item nav-link" href="#">CONTACT</a>
+                    <a class="nav-item nav-link" href="#portfolio-page" id="amp-portfolio-link">PORTFOLIO</a>
+                    <a class="nav-item nav-link" href="#contact-me-page" id="amp-contact-link">CONTACT</a>
                 </div>
             </nav>
             <h2>ABOUT</h2>
         </section>
         <section id="portfolio-page">
-            <nav class="navbar navbar-expand navbar-dark" id="about-me-navbar">
+            <nav class="navbar navbar-expand navbar-dark" id="navbar">
                 <div class="nav navbar-nav">
-                    <a class="nav-item nav-link" href="#main-page" id="home-button">HOME</a>
-                    <a class="nav-item nav-link" href="#about-me-page" id="about-button">ABOUT</a>
+                    <a class="nav-item nav-link" href="#home-page" id="pp-home-link">HOME</a>
+                    <a class="nav-item nav-link" href="#about-me-page" id="pp-about-link">ABOUT</a>
                     <a class="nav-item nav-link active" href="#portfolio-page">PORTFOLIO<span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#contact-me-page" id="contact-me-button">CONTACT</a>
+                    <a class="nav-item nav-link" href="#contact-me-page" id="pp-contact-link">CONTACT</a>
                 </div>
             </nav>
             <div style="margin-bottom: 25px;">
                 <h2>PORTFOLIO</h2>
             </div>
             <div>
-                <a href="https://github.com/Vlady14/Day_Planner" target="_blank"><img src="/Assets/Portfolio/Work Day Planner.png" alt="Work Day Planner" id="workday-planner"></a>
-                <a href="https://github.com/Vlady14/Weather_Dashboard" target="_blank"><img src="/Assets/Portfolio/Weather Dashboard.png" alt="Weather Dashboard" id="weather-dashboard"></a>
-                <a href="https://github.com/Vlady14/Profile_Generator" target="_blank"><img src="/Assets/Portfolio/Team Profile Generator.png" alt="Team Profile Generator" id="team-profile"></a>
-                <a href="https://github.com/Vlady14/VDimitrov_ReadMe_Generator" target="_blank"><img src="/Assets/Portfolio/ReadME Generator.png" alt="ReadMe Generator" id="readme-genertor"></a>
-                <a href="https://github.com/Vlady14/PasswordGenerator" target="_blank"><img src="/Assets/Portfolio/Password_Generator.png" alt="Password Generator" id="password-generator"></a>
-                <a href="https://github.com/Vlady14/Charging_Forward" target="_blank"><img src="/Assets/Portfolio/Charging Forward.png" alt="Charging Forward" id="charging-forward"></a>
-                <a href="https://github.com/Vlady14/Note_Taker" target="_blank"><img src="/Assets/Portfolio/Note_Taker .png" alt="Note Pad" id="note-pad"></a>
+                <a href="https://github.com/Vlady14/Day_Planner" target="_blank"><img
+                        src="/Assets/Portfolio/Work Day Planner.png" alt="Work Day Planner" id="workday-planner"></a>
+                <a href="https://github.com/Vlady14/Weather_Dashboard" target="_blank"><img
+                        src="/Assets/Portfolio/Weather Dashboard.png" alt="Weather Dashboard"
+                        id="weather-dashboard"></a>
+                <a href="https://github.com/Vlady14/Profile_Generator" target="_blank"><img
+                        src="/Assets/Portfolio/Team Profile Generator.png" alt="Team Profile Generator"
+                        id="team-profile"></a>
+                <a href="https://github.com/Vlady14/VDimitrov_ReadMe_Generator" target="_blank"><img
+                        src="/Assets/Portfolio/ReadME Generator.png" alt="ReadMe Generator" id="readme-genertor"></a>
+                <a href="https://github.com/Vlady14/PasswordGenerator" target="_blank"><img
+                        src="/Assets/Portfolio/Password_Generator.png" alt="Password Generator"
+                        id="password-generator"></a>
+                <a href="https://github.com/Vlady14/Charging_Forward" target="_blank"><img
+                        src="/Assets/Portfolio/Charging Forward.png" alt="Charging Forward" id="charging-forward"></a>
+                <a href="https://github.com/Vlady14/Note_Taker" target="_blank"><img
+                        src="/Assets/Portfolio/Note_Taker .png" alt="Note Pad" id="note-pad"></a>
                 <a href=""><img src="#" alt="" id="workday-planner"></a>
             </div>
             <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -136,18 +146,19 @@
                 </a>
             </div> -->
         </section>
-        <section style="display: none;" id="contact-me-page">
-            <nav class="navbar navbar-expand navbar-dark" id="about-me-navbar">
+        <section id="contact-me-page">
+            <nav class="navbar navbar-expand navbar-dark" id="navbar">
                 <div class="nav navbar-nav">
-                    <a class="nav-item nav-link" href="#main-page" id="home-button">HOME</a>
-                    <a class="nav-item nav-link" href="#about-me-page">ABOUT<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#portfolio-page" id="portfolio-button">PORTFOLIO</a>
-                    <a class="nav-item nav-link active" href="#">CONTACT</a>
+                    <a class="nav-item nav-link" href="#home-page" id="cmp-home-link">HOME</a>
+                    <a class="nav-item nav-link" href="#about-me-page" id="cmp-about-link">ABOUT<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#portfolio-page" id="cmp-portfolio-link">PORTFOLIO</a>
+                    <a class="nav-item nav-link active" href="#contact-me-page">CONTACT</a>
                 </div>
             </nav>
             <footer>
                 <h3 style="margin-top: 45px; color: white; font-size: 50px;">Contact Me</h3>
-                <p id="contact-message-info">Have a question, would like to connect or access my social media,<br> or simply view my resume?</p>
+                <p id="contact-message-info">Have a question, would like to connect or access my social media,<br> or
+                    simply view my resume?</p>
                 <form>
                     <div class="form-group">
                         <label for="formGroupExampleInput"></label>

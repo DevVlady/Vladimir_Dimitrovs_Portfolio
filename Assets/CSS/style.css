@@ -1,22 +1,17 @@
-/* ----------Apply to All----------- */
+/* ----------Applies to All----------- */
 h2 {
     text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.navbar {
+#navbar {
+    font-size: 20px;
+    font-weight: bold;
     background-color: black;
 }
 
 /*--------Main Page---------*/
-#view-my-work-button {
-    padding: 10px;
-    font-size: 30px;
-    color: black;
-    border: 1px solid black;
-}
-
 #business-photo {
     width: 500px;
     height: 500px;
@@ -30,6 +25,7 @@ h2 {
     display: block;
     width: 300px;
     height: 80px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: black;
@@ -87,15 +83,11 @@ body {
     font-size: 70px;
 }
 
-#main-page {
+/* #home-page {
     display: none;
-}
+} */
 
 /*--------About Me Page---------*/
-#about-me-navbar {
-    font-size: 20px;
-    font-weight: bold;
-}
 
 #about-me-page {
     display: none;
@@ -119,7 +111,7 @@ body {
 #charging-forward,
 #note-pad {
     border: 10px solid black;
-    width: 350px;
+    width: 400px;
     height: 350px;
     margin: 5px;
 }
@@ -128,14 +120,14 @@ body {
     margin: 5px;
     border: 10px solid black;
     height: 350px;
-    width: 715px;
-}
-
-#workday-planner:hover {
-    background-color: white;
+    width: 785px;
 }
 
 /* ------Contact Me Page------------ */
+#contact-me-page {
+    display: none;
+}
+
 footer {
     background-color: black;
     bottom: 0;
