@@ -5,6 +5,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 #navbar {
     font-size: 20px;
     font-weight: bold;
@@ -95,6 +99,45 @@ body {
 
 #portfolio-page {
     display: none;
+}
+
+#business-photo-2 {
+    border: 10px solid black;
+    width: 410px;
+    height: 600px;
+    float: left;
+    border-radius: 7%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#my-bio {
+    text-align: left;
+    margin-right: 25px;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+#code-icon,
+#mobile-icon {
+    font-size: 150px;
+    margin-left: 85px;
+    color: black;
+    margin-bottom: 115px;
+}
+
+.progress {
+    background-color: black;
+    margin: 15px;
+    height: 35px;
+}
+
+.progress-bar {
+    text-align: left;
+    text-indent: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
 }
 
 /* ------Portfolio Page----------- */
