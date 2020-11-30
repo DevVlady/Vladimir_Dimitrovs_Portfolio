@@ -131,6 +131,10 @@ body {
     width: 715px;
 }
 
+#workday-planner:hover {
+    background-color: white;
+}
+
 /* ------Contact Me Page------------ */
 footer {
     background-color: black;
