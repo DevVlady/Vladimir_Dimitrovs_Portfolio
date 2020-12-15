@@ -24,7 +24,7 @@ const cmpPortfolioButton = document.querySelector('#cmp-portfolio-link');
 
 
 //Event listeners for the View My Work Button on Home Page
-viewMyWorkButton.addEventListener('click', displayPortfolioPage);
+viewMyWorkButton.addEventListener('click', displayAboutPage);
 
 //Event Listeners for links on the About Me Page
 ampHomeButton.addEventListener('click', displayHomePage);

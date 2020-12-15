@@ -1,0 +1,25 @@
+{
+  "name": "Vladimir_Dimitrovs_Portfolio",
+  "version": "1.0.0",
+  "description": "Vladimir's Portfolio Webpage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlady14/Vladimir_Dimitrovs_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlady14/Vladimir_Dimitrovs_Portfolio/issues"
+  },
+  "homepage": "https://github.com/Vlady14/Vladimir_Dimitrovs_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
