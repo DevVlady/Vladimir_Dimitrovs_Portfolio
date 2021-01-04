@@ -4,7 +4,7 @@
 
 ## Description
 
-This applocation is a professional portfolio which displays all my work I have completed as a web developer this far. In this application you can find all projects, links to my social media, and a contact page which can be used to contact me. If you would like quick and easy access to my resume you can access this by going to my contqct page where you can view or download it for personal use. Thank you for visitng my page.
+This application is a professional portfolio which displays all my work I have completed as a web developer this far. In this application you can find all projects, links to my social media, and a contact page which can be used to contact me. If you would like quick and easy access to my resume you can access this by going to my contqct page where you can view or download it for personal use. Thank you for visitng my page.
 
 ## Table of Contents
 
