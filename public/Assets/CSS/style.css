@@ -143,24 +143,7 @@ body {
     width: 450px;
 } */
 
-#workday-planner,
-#team-profile,
-#readme-genertor,
-#password-generator,
-#charging-forward,
-#note-pad {
-    border: 10px solid black;
-    width: 400px;
-    height: 350px;
-    margin: 5px;
-}
 
-#weather-dashboard {
-    margin: 5px;
-    border: 10px solid black;
-    height: 350px;
-    width: 785px;
-}
 
 /* ------Contact Me Page------------ */
 #contact-me-page {

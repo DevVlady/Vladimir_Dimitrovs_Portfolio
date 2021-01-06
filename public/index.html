@@ -39,8 +39,9 @@
                         <span class="text-muted">Enjoy my portfolio as much as i do</span>
                         <div class="navbar-buttons">
                             <button onclick="displayHomePage()" type="button" class="btn btn-light">HOME</button>
-                            <button type="button" class="btn btn-info">ABOUT</button>
-                            <button onclick="displayPortfolioPage()" type="button" class="btn btn-light">PORTFOLIO</button>
+                            <button onclick="displayAboutPage()" type="button" class="btn btn-info">ABOUT</button>
+                            <button onclick="displayPortfolioPage()" type="button"
+                                class="btn btn-light">PORTFOLIO</button>
                             <button onclick="displayContactPage()" type="button" class="btn btn-light">CONTACT</button>
                         </div>
                     </div>
@@ -109,8 +110,9 @@
                         <span class="text-muted">Enjoy my portfolio as much as i do</span>
                         <div class="navbar-buttons">
                             <button onclick="displayHomePage()" type="button" class="btn btn-light">HOME</button>
-                            <button type="button" class="btn btn-light">ABOUT</button>
-                            <button onclick="displayPortfolioPage()" type="button" class="btn btn-info">PORTFOLIO</button>
+                            <button onclick="displayAboutPage()" type="button" class="btn btn-light">ABOUT</button>
+                            <button onclick="displayPortfolioPage()" type="button"
+                                class="btn btn-info">PORTFOLIO</button>
                             <button onclick="displayContactPage()" type="button" class="btn btn-light">CONTACT</button>
                         </div>
                     </div>
@@ -125,8 +127,33 @@
                     </div>
                 </nav>
             </div>
-            <div>
-                <a href="https://github.com/Vlady14/Day_Planner" target="_blank"><img
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100" id="card">
+                        <img src="./Assets/Portfolio/Work Day Planner.png" class="card-img-top" id="planner-img"
+                            alt="Daily Planner" />
+                        <div class="card-body">
+                            <h5 class="card-title">Daily Planner</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit
+                                longer.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" id="launch-btn" onclick="launchPlannerSite()">
+                                LAUNCH
+                            </button>
+                            <button type="button" class="btn btn-dark" id="view-github-btn"
+                                onclick="launchPlannerRepo()">
+                                VIEW ON GITHUB
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <a href="https://github.com/Vlady14/Day_Planner" target="_blank"><img
                         src="./Assets/Portfolio/Work Day Planner.png" alt="Work Day Planner" id="workday-planner"></a>
                 <a href="https://github.com/Vlady14/Weather_Dashboard" target="_blank"><img
                         src="./Assets/Portfolio/Weather Dashboard.png" alt="Weather Dashboard"
@@ -143,19 +170,19 @@
                         src="./Assets/Portfolio/Charging Forward.png" alt="Charging Forward" id="charging-forward"></a>
                 <a href="https://github.com/Vlady14/Note_Taker" target="_blank"><img
                         src="./Assets/Portfolio/Note_Taker .png" alt="Note Pad" id="note-pad"></a>
-                <a href=""><img src="#" alt="" id="workday-planner"></a>
-            </div>
+                <a href=""><img src="#" alt="" id="workday-planner"></a> -->
         </section>
         <section id="contact-me-page">
             <div class="navbar-content">
                 <div class="collapse" id="navbarToggleExternalContent">
                     <div class="bg-dark p-4">
-                        <h5 class="text-white h4 navbar-welcome">ABOUT</h5>
+                        <h5 class="text-white h4 navbar-welcome">CONTACT</h5>
                         <span class="text-muted">Enjoy my portfolio as much as i do</span>
                         <div class="navbar-buttons">
                             <button onclick="displayHomePage()" type="button" class="btn btn-light">HOME</button>
-                            <button type="button" class="btn btn-light">ABOUT</button>
-                            <button onclick="displayPortfolioPage()" type="button" class="btn btn-light">PORTFOLIO</button>
+                            <button onclick="displayAboutPage()" type="button" class="btn btn-light">ABOUT</button>
+                            <button onclick="displayPortfolioPage()" type="button"
+                                class="btn btn-light">PORTFOLIO</button>
                             <button onclick="displayContactPage()" type="button" class="btn btn-info">CONTACT</button>
                         </div>
                     </div>
