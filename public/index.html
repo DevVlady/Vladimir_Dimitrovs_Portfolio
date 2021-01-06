@@ -18,6 +18,7 @@
 
 <body>
 
+    <!-- Welcome Page -->
     <div class="overflow-wrap">
         <main id="home-page" style="display: block;">
             <div class="flex">
@@ -31,6 +32,8 @@
                 </div>
             </div>
         </main>
+
+        <!-- About Me Page -->
         <section id="about-me-page">
             <div class="navbar-content">
                 <div class="collapse" id="navbarToggleExternalContent">
@@ -102,7 +105,10 @@
                 </div>
             </div>
         </section>
+
+        <!-- Portfolio Page -->
         <section id="portfolio-page">
+            <!-- Navbar on Portfolio Page -->
             <div class="navbar-content">
                 <div class="collapse" id="navbarToggleExternalContent">
                     <div class="bg-dark p-4">
@@ -127,6 +133,7 @@
                     </div>
                 </nav>
             </div>
+            <!-- Cards Section - Displaying all my projects -->
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100" id="card">
@@ -268,9 +275,8 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
+            <!-- View More Projects section - When clicked will display additional Projects -->
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -281,6 +287,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
+                        <!-- Cards - Displaying projects in the collapse section -->
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card h-100">
@@ -358,26 +365,9 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <a href="https://github.com/Vlady14/Day_Planner" target="_blank"><img
-                        src="./Assets/Portfolio/Work Day Planner.png" alt="Work Day Planner" id="workday-planner"></a>
-                <a href="https://github.com/Vlady14/Weather_Dashboard" target="_blank"><img
-                        src="./Assets/Portfolio/Weather Dashboard.png" alt="Weather Dashboard"
-                        id="weather-dashboard"></a>
-                <a href="https://github.com/Vlady14/Profile_Generator" target="_blank"><img
-                        src="./Assets/Portfolio/Team Profile Generator.png" alt="Team Profile Generator"
-                        id="team-profile"></a>
-                <a href="https://github.com/Vlady14/VDimitrov_ReadMe_Generator" target="_blank"><img
-                        src="./Assets/Portfolio/ReadME Generator.png" alt="ReadMe Generator" id="readme-genertor"></a>
-                <a href="https://github.com/Vlady14/PasswordGenerator" target="_blank"><img
-                        src="./Assets/Portfolio/Password_Generator.png" alt="Password Generator"
-                        id="password-generator"></a>
-                <a href="https://github.com/Vlady14/Charging_Forward" target="_blank"><img
-                        src="./Assets/Portfolio/Charging Forward.png" alt="Charging Forward" id="charging-forward"></a>
-                <a href="https://github.com/Vlady14/Note_Taker" target="_blank"><img
-                        src="./Assets/Portfolio/Note_Taker .png" alt="Note Pad" id="note-pad"></a>
-                <a href=""><img src="#" alt="" id="workday-planner"></a> -->
         </section>
+
+        <!-- Contact Me Page -->
         <section id="contact-me-page">
             <div class="navbar-content">
                 <div class="collapse" id="navbarToggleExternalContent">
@@ -407,6 +397,7 @@
                 <h3 style="margin-top: 45px; color: white; font-size: 50px;">Contact</h3>
                 <p id="contact-message-info">Have a question, would like to connect or access my social media,<br> or
                     simply view my resume?</p>
+                    <!-- Form -->
                 <form>
                     <div class="form-group">
                         <label for="formGroupExampleInput"></label>
@@ -422,6 +413,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
                 </form>
+                <!-- Footer Section -->
                 <div id="copyright-info">
                     <a href="https://github.com/Vlady14" target="_blank" class="btn btn-success btn-lg active"
                         role="button" aria-pressed="true" id="github-tag"><i class="fab fa-github"
@@ -438,7 +430,6 @@
             </footer>
         </section>
     </div>
-
 
     <script type="text/javascript" src="./Assets/JavaScript/script.js"></script>
     <script type="text/javascript" src="./Assets/JavaScript/portfolioPage.js"></script>
