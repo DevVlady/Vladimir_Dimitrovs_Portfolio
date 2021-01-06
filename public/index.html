@@ -34,28 +34,27 @@
         <section id="about-me-page">
             <div class="navbar-content">
                 <div class="collapse" id="navbarToggleExternalContent">
-                        <div class="bg-dark p-4">
-                                <h5 class="text-white h4 navbar-welcome">PORTFOLIO</h5>
-                                <span class="text-muted">Enjoy my portfolio as much as i do</span>
-                                <div class="navbar-buttons">
-                                        <button type="button" class="btn btn-light">HOME</button>
-                                        <button type="button" class="btn btn-light">ABOUT</button>
-                                        <button type="button" class="btn btn-info">PORTFOLIO</button>
-                                        <button type="button" class="btn btn-light">CONTACT</button>
-                                </div>
+                    <div class="bg-dark p-4">
+                        <h5 class="text-white h4 navbar-welcome">ABOUT</h5>
+                        <span class="text-muted">Enjoy my portfolio as much as i do</span>
+                        <div class="navbar-buttons">
+                            <button type="button" class="btn btn-light">HOME</button>
+                            <button type="button" class="btn btn-info">ABOUT</button>
+                            <button type="button" class="btn btn-light">PORTFOLIO</button>
+                            <button type="button" class="btn btn-light">CONTACT</button>
                         </div>
+                    </div>
                 </div>
                 <nav class="navbar navbar-dark bg-dark">
-                        <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarToggleExternalContent"
-                                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
-                                        aria-label="Toggle navigation">
-                                        <span class="navbar-toggler-icon"></span>
-                                </button>
-                        </div>
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                 </nav>
-        </div>
+            </div>
             <h3 style="margin-top: 5px; color: black; font-size: 50px;">About</h3>
             <div>
                 <img src="./Assets/Images/Business Photo 2.jpg" alt="" id="business-photo-2">
@@ -73,8 +72,8 @@
                 </div>
                 <div>
                     <div class="progress">
-                        <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                            aria-valuemax="100">HTML5</div>
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">HTML5</div>
                     </div>
                     <div class="progress">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="25"
@@ -104,15 +103,29 @@
             </div>
         </section>
         <section id="portfolio-page">
-            <nav class="navbar navbar-expand navbar-dark" id="navbar">
-                <div class="nav navbar-nav">
-                    <a class="nav-item nav-link" href="#home-page" id="pp-home-link">HOME</a>
-                    <a class="nav-item nav-link" href="#about-me-page" id="pp-about-link">ABOUT</a>
-                    <a class="nav-item nav-link active" href="#portfolio-page">PORTFOLIO<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#contact-me-page" id="pp-contact-link">CONTACT</a>
+            <div class="navbar-content">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                        <h5 class="text-white h4 navbar-welcome">ABOUT</h5>
+                        <span class="text-muted">Enjoy my portfolio as much as i do</span>
+                        <div class="navbar-buttons">
+                            <button type="button" class="btn btn-light">HOME</button>
+                            <button type="button" class="btn btn-info">ABOUT</button>
+                            <button type="button" class="btn btn-light">PORTFOLIO</button>
+                            <button type="button" class="btn btn-light">CONTACT</button>
+                        </div>
+                    </div>
                 </div>
-            </nav>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
             <div style="margin-bottom: 10px;">
                 <h3 style="margin-top: 5px; color: black; font-size: 50px;">Portfolio</h3>
             </div>
@@ -138,7 +151,7 @@
             </div>
         </section>
         <section id="contact-me-page">
-            <nav class="navbar navbar-expand navbar-dark" id="navbar">
+            <!-- <nav class="navbar navbar-expand navbar-dark" id="navbar">
                 <div class="nav navbar-nav">
                     <a class="nav-item nav-link" href="#home-page" id="cmp-home-link">HOME</a>
                     <a class="nav-item nav-link" href="#about-me-page" id="cmp-about-link">ABOUT<span
@@ -146,7 +159,7 @@
                     <a class="nav-item nav-link" href="#portfolio-page" id="cmp-portfolio-link">PORTFOLIO</a>
                     <a class="nav-item nav-link active" href="#contact-me-page">CONTACT</a>
                 </div>
-            </nav>
+            </nav> -->
             <footer>
                 <h3 style="margin-top: 45px; color: white; font-size: 50px;">Contact</h3>
                 <p id="contact-message-info">Have a question, would like to connect or access my social media,<br> or
@@ -185,10 +198,8 @@
 
 
     <script src="./Assets/JavaScript/script.js"></script>
-    <script src="./Assets/JavaScript/portfolioPage.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
