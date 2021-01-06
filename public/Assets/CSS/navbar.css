@@ -1,0 +1,15 @@
+.navbar-buttons {
+    text-align: right;
+}
+
+.navbar-buttons > button {
+    font-weight: bolder;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+    cursor: pointer;
+    transition: all 0.75s ease-out;
+}
+
+.navbar-welcome,
+.card-footer {
+    text-align: center;
+}

@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="./Assets/Icons/VDimitrov-Icon-Small.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link rel="stylesheet" href="./Assets/CSS/navbar.css" />
+    <link rel="stylesheet" href="./Assets/CSS/portfolioPage.css" />
     <title>Vladimir Dimitrov</title>
 </head>
 
@@ -30,15 +32,30 @@
             </div>
         </main>
         <section id="about-me-page">
-            <nav class="navbar navbar-expand navbar-dark" id="navbar">
-                <div class="nav navbar-nav">
-                    <a class="nav-item nav-link" href="#home-page" id="amp-home-link">HOME</a>
-                    <a class="nav-item nav-link active" href="#about-me-page">ABOUT<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#portfolio-page" id="amp-portfolio-link">PORTFOLIO</a>
-                    <a class="nav-item nav-link" href="#contact-me-page" id="amp-contact-link">CONTACT</a>
+            <div class="navbar-content">
+                <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                                <h5 class="text-white h4 navbar-welcome">PORTFOLIO</h5>
+                                <span class="text-muted">Enjoy my portfolio as much as i do</span>
+                                <div class="navbar-buttons">
+                                        <button type="button" class="btn btn-light">HOME</button>
+                                        <button type="button" class="btn btn-light">ABOUT</button>
+                                        <button type="button" class="btn btn-info">PORTFOLIO</button>
+                                        <button type="button" class="btn btn-light">CONTACT</button>
+                                </div>
+                        </div>
                 </div>
-            </nav>
+                <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarToggleExternalContent"
+                                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                </button>
+                        </div>
+                </nav>
+        </div>
             <h3 style="margin-top: 5px; color: black; font-size: 50px;">About</h3>
             <div>
                 <img src="./Assets/Images/Business Photo 2.jpg" alt="" id="business-photo-2">
@@ -168,6 +185,8 @@
 
 
     <script src="./Assets/JavaScript/script.js"></script>
+    <script src="./Assets/JavaScript/portfolioPage.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
 </body>
