@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vlady14/Vladimir_Dimitrovs_Portfolio.git"
+    "url": "git+https://github.com/DevVlady/Vladimir_Dimitrovs_Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vlady14/Vladimir_Dimitrovs_Portfolio/issues"
+    "url": "https://github.com/DevVlady/Vladimir_Dimitrovs_Portfolio/issues"
   },
-  "homepage": "https://github.com/Vlady14/Vladimir_Dimitrovs_Portfolio#readme",
+  "homepage": "https://github.com/DevVlady/Vladimir_Dimitrovs_Portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
     "uuid": "^8.3.2"
