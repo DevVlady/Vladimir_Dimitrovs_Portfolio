@@ -72,12 +72,12 @@ card.addEventListener('mouseleave', (e) => {
 //Day Planner Button Events
 //Onclick Event for launching Day Planner Site
 function launchPlannerSite() {
-    window.open("https://vlady14.github.io/Day_Planner/", '_blank');
+    window.open("https://DevVlady.github.io/Day_Planner/", '_blank');
 };
 
 //Onclick Even for launching Day Planner Github Repo
 function launchPlannerRepo() {
-    window.open("https://github.com/Vlady14/Day_Planner", '_blank');
+    window.open("https://github.com/DevVlady/Day_Planner", '_blank');
 };
 
 
@@ -121,7 +121,7 @@ function launchProfileGenSite() {
 
 //Onclick Even for launching Profile Generator Github Repo
 function launchProfileGenRepo() {
-    window.open("https://github.com/Vlady14/Profile_Generator", '_blank');
+    window.open("https://github.com/DevVlady/Profile_Generator", '_blank');
 };
 
 
@@ -165,7 +165,7 @@ function launchDevHangoutSite() {
 
 //Onclick Even for launching Dev-Hangout Github Repo
 function launchDevHangoutRepo() {
-    window.open("https://github.com/Vlady14/Dev-Hangout", '_blank');
+    window.open("https://github.com/DevVlady/Dev-Hangout", '_blank');
 };
 
 
@@ -209,7 +209,7 @@ function launchFitnessTrackerSite() {
 
 //Onclick Even for launching Fitness Tracker Github Repo
 function launchFitnessTrackerRepo() {
-    window.open("https://github.com/Vlady14/Fitness_Tracker", '_blank');
+    window.open("https://github.com/DevVlady/Fitness_Tracker", '_blank');
 };
 
 
@@ -253,5 +253,5 @@ function launchNotepadSite() {
 
 //Onclick Even for launching Notepad Github Repo
 function launchNotepadRepo() {
-    window.open("https://github.com/Vlady14/Note_Taker", '_blank');
+    window.open("https://github.com/DevVlady/Note_Taker", '_blank');
 };
